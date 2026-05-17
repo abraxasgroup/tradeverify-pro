@@ -22,7 +22,7 @@ function PageShell({ children }) {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/tradeverify-pro">
       <div className="min-h-screen bg-[#07091a] text-slate-100 flex">
         <Sidebar />
 
